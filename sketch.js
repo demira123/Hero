@@ -8,7 +8,7 @@ var ground
 var fly
 function preload() {
 //preload the images here
-//backgroundImg = loadImage("");
+backgroundImg = loadImage("killthemonsterFILE-main/GamingBackground.jpg");
 
 }
 
@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(backgroundImg);
   Engine.update(engine);
   hero.display()
   ground.display()
